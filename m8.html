@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+
+</head>
+
+<body>
+    <h2> This is HTML form tutorial</h2>
+    <form action="login.php">
+        <label for="name"> Name </label>
+        <div>
+            <input type="text" name="my_name" id="name">
+        </div>
+        <label for="id"> ID </label>
+        <div>
+            <input type="number" name="my_id" id="id">
+        </div>
+        <label for="role">Role</label>
+        <div>
+            <input type="text" name="my_role" id="role">
+        </div>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" name="my_email" id="email">
+        </div>
+        <label for="date">Date</label>
+        <div>
+            <input type="date" name="my_date" id="date">
+        </div>
+
+        <div>
+            <label for="car">Car</label>
+            <select name="mycar" id="car">
+                <option value="indica">Indica</option>
+                <option value="swift" selected>Swift</option>
+            </select>
+        </div>
+
+
+        <div>
+            Gender: Male<input type="radio" name="my_gender" id=""> Female <input type="radio" name="my_gender" id="">
+            Other<input type="radio" name="my_gender" id="">
+        </div>
+        <label for="about">Write about yourself </label>
+        <div>
+            <textarea name="about_me" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            I agree: <input type="checkbox" name="agree" id="" checked>
+        </div>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>
