@@ -1,0 +1,12 @@
+
+                    <br>
+                    <br>
+
+                    <p class="lh-lg">You can freely use these web pages for for your personal project or
+                        commercial work .</p>
+                    <p class="lh-lg"><strong><a href="https://github.com/madhuryadutta/Simple_Html_Pages"
+                                target="_blank">View on GitHub</a></strong></p>
+            </div>
+</body>
+
+</html>
