@@ -55,7 +55,7 @@ dynamic_part=''
 if len(dir_list) > 0:
     for i in dir_list:
         # dynamic_part+= '''<li><a href="/'''+i+'">'+i+'''</a></li>'''
-        dynamic_part+= '''<li><a href="/'''+i+'"target="_blank">'+create_li_name_function(i)+'''</a></li>'''
+        dynamic_part+= '''<li><a href="./'''+i+'"target="_blank">'+create_li_name_function(i)+'''</a></li>'''
 
 # Get the list of all files and directories
 
